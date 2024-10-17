@@ -1,7 +1,8 @@
 S&P 500 Stocks Analysis and Portfolio Optimization
 This project analyzes the S&P 500 stocks, calculates various technical indicators, and forms optimized investment portfolios using clustering and Efficient Frontier methods.
 
-Features
+Features:
+
 Data Collection: Downloaded historical price data for S&P 500 stocks using yfinance.
 Technical Indicators: Calculated indicators like RSI, SMA, EMA, Bollinger Bands using pandas_ta.
 Monthly Aggregation: Resampled data on a monthly level and selected the top 150 most liquid stocks.
@@ -17,11 +18,15 @@ pandas, numpy
 pandas_ta
 scikit-learn
 cvxpy, pyportfolioopt
+
+
 How to Use
 Clone the repository:
 bash
 Copy code
 git clone https://github.com/your_username/sp500-analysis.git
+
+
 Install required libraries:
 bash
 Copy code
@@ -30,6 +35,9 @@ Run the main analysis script:
 bash
 Copy code
 python main.py
+
+
+
 Results
 Visualization of the portfolio returns vs. S&P 500.
 Insights on stock clusters and sector performance.
