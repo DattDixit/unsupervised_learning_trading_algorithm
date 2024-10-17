@@ -31,7 +31,7 @@ cvxpy, pyportfolioopt
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your_username/sp500-analysis.git
+git clone https://github.com/username/sp500-analysis.git
 
 
 -Install required libraries:
