@@ -1,0 +1,49 @@
+
+1. Garman-Klass Volatility
+   - A method for estimating the volatility of an asset using high, low, opening, and closing prices.
+   - It accounts for the range between the high and low prices, providing a more accurate measure than simple closing price-based volatility.
+   - Formula: 
+     σ^2 = 0.5 × (ln(High/Low))^2 - (2 ln(2) - 1) × (ln(Close/Open))^2
+   - Commonly used in options pricing and risk management.
+
+2. Relative Strength Index (RSI)
+   - Measures the speed and change of price movements.
+   - It ranges from 0 to 100 and indicates overbought or oversold conditions.
+   - A reading above 70 suggests an asset is overbought, while a reading below 30 suggests it is oversold.
+   - Formula: 
+     RSI = 100 - (100 / (1 + (Average Gain / Average Loss)))
+
+3. Bollinger Bands
+   - A volatility indicator consisting of a middle band (simple moving average) and two outer bands (standard deviations above and below the SMA).
+   - The bands widen when volatility increases and narrow when it decreases.
+   - Traders use them to identify potential buy/sell points based on price movements relative to the bands.
+   - Formula:
+     - Upper Band = SMA + (K × std dev)
+     - Lower Band = SMA - (K × std dev)
+
+4. Average True Range (ATR)
+   - Measures market volatility by decomposing the entire range of an asset price for that period.
+   - It considers the high-low range, high-close, and low-close ranges to provide a comprehensive view of price movement.
+   - Useful in setting stop-loss levels and assessing market volatility.
+   - Formula:
+     ATR = (sum of TR over n periods) / n
+     where TR (True Range) is the largest of: 
+     - Current High - Current Low
+     - Absolute value of Current High - Previous Close
+     - Absolute value of Current Low - Previous Close
+
+5. Moving Average Convergence Divergence (MACD)
+   - A momentum indicator that shows the relationship between two moving averages of a security’s price.
+   - It includes a signal line to indicate buy/sell opportunities.
+   - Formula:
+     - MACD Line = 12-period EMA - 26-period EMA
+     - Signal Line = 9-period EMA of MACD Line
+     - Histogram = MACD Line - Signal Line
+   - Positive MACD suggests upward momentum, while negative MACD suggests downward momentum.
+
+6. Dollar Volume
+   - Measures the trading activity of an asset by multiplying the volume of shares traded by the stock price.
+   - It helps identify liquidity and the ease with which a position can be entered or exited.
+   - Formula:
+     Dollar Volume = Price × Volume
+   - Higher dollar volume indicates better liquidity, making it a suitable candidate for trading.
